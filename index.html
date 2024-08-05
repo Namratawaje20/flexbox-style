@@ -9,10 +9,18 @@
 
         .Cards-Container{
             background-color: lightblue;
-            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            flex-wrap: wrap;
         }
         .card{
-            
+            width: 150px ;
+            height: 150px;
+            border:4px double black ;
+            border-radius: 10px;
+            margin: 5px;
             background-color: white;
 
         }
@@ -20,12 +28,13 @@
         .card-img{
             height: 100px ;
             width: 100%;
-            
+            border-radius: 7px 7px 0 0;
         }
 
         .card-title{
             text-align: center;
-
+            margin: 0;
+            padding: 0;
 ;
         }
     </style>
