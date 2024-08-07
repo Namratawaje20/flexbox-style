@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flex Box</title>
+    <style>
+
+      .container {
+        background-color: aqua;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+      }
+
+      .card{
+            width: 150px ;
+            height: 150px;
+            border:4px double black ;
+            border-radius: 10px;
+            margin: 5px;
+            background-color: white;
+
+        }
+
+      .card-img{
+            height: 100px ;
+            width: 100%;
+            border-radius: 7px 7px 0 0;
+        }
+
+      .card-title{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+
+        }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="css/morning.jpg" class="card-img">
+        <h2 class="card-title">Morning</h2>
+      </div>
+
+      <div class="card">
+        <img src="css/afternoon.jpg" class="card-img">
+        <h2 class="card-title">Afternoon</h2>
+      </div>
+
+      <div class="card">
+        <img src="css/evening.jpg" class="card-img">
+        <h2 class="card-title">Evening</h2>
+      </div>
+      
+      <div class="card">
+        <img src="css/night.jpg" class="card-img">
+        <h2 class="card-title">Night</h2>
+      </div>
+      
+    </div>
+  </body>
+
+</html>
+
